@@ -1,25 +1,39 @@
-# README
+# Usineappthp - 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 📰 The content
 
-Things you may want to cover:
+we created a database, with a rails application, using the ActiveRecord gem.
 
-* Ruby version
+**After cloning the repository, make sure to do :**
 
-* System dependencies
+```sh
+$ cd 
+$ cd 
+$ bundle install
+$ rails db:migrate
+$ rails db:seed
+```
+This will install all the dependencies needed for the exercises and create the database.
 
-* Configuration
 
-* Database creation
+## 💎 Gems
 
-* Database initialization
+in this project we use : 
 
-* How to run the test suite
+```sh
+source "https://rubygems.org"
+rails '5.2.1'
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+you can find all the gems in the Gemfile in this directory : 
 
-* Deployment instructions
+../../Gemfile
 
-* ...
-# Usineappthp
+## :european_post_office: The Strasbourg Crew 💪
+Done with @zOmegad, @BrokenPirate, @mxrch, @Runefire32, and  @OwwllMan
+
+<hr>
+
+***It's an exercise from the TheHackingProject bootcamp.***
+
+***> www.thehackingproject.org***
